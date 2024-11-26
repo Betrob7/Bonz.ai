@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    opacity: 75%;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    /*Background image by: Tyler Clemmensen on Unsplash*/
+    background-image: url(/Bonz.ai/assets/lake\ tahoe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header__hamburger {
+    display: none;
+}
+
+.page-header {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
+}
+
+.page-header__title {
+    font-size: 2rem;
+}
+
+.page-header__horizontal-line {
+    width: 85%;
+    border: 1px solid #fff;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.navigation__list-items {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation__link:hover {
+    color: grey;
+}
+
+.page1-main {
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.page1-main__info-section {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+}
+
+.page1-main__title {
+   color: #fff;
+   font-weight: 600;
+   font-size: 2rem;
+}
+
+.page1-main__slogan {
+    color: #fff;
+}
+
+.page1-main__info {
+    color: #fff;
+}
+
+.page-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem;
+}
+
+.page-footer__title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.page-footer__media-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.page-footer__media-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-footer__media-link:hover {
+    color: grey;
+}
+
+@media (min-width:375px) and (max-width:576px) {
+
+    .page-header {
+        gap: 0rem;
+        padding: 1rem;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    .page-header__title {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    .page-header__hamburger {
+        display: inline;
+        font-size: 2rem;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .page-header__horizontal-line {
+        display: none;
+    }
+
+    .page1-main__info-section {
+        margin-left: 0rem;
+        margin: 0rem 0.5rem;
+    }
+
+    .page-footer__title {
+        padding: .5rem;
+        color: #fff;
+    }
+
+}
