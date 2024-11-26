@@ -8,20 +8,19 @@ body {
     display: flex;
     justify-content: center;
     background-color: #000;
-    opacity: 75%;
 }
 
 .wrapper {
     height: 100vh;
     width: 100vw;
     /*Background image by: Tyler Clemmensen on Unsplash*/
-    background-image: url(/Bonz.ai/assets/lake\ tahoe.jpg);
+    background-image: url(../assets/lake\ tahoe.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.page-header__hamburger {
+.page-header .page-header__hamburger {
     display: none;
 }
 
@@ -122,6 +121,83 @@ body {
     color: grey;
 }
 
+/*PAGE 2*/
+
+.page2-wrapper {
+    height: 100vh;
+    width: 100vw;
+    /*Background image by: El S on Unsplash*/
+    background-image: url(../assets/hallway-bonz.ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#page2 .page-header__hamburger {
+    display: none;
+}
+
+.page2-main {
+    color: #fff;
+}
+
+.page2-main__hero-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 25%;
+    margin-inline: auto;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.page2-main__title {
+    text-align: center;
+    padding-bottom: .25rem;
+}
+
+.page2-main__gallery-section {
+    margin-top: 20vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    place-items: center;
+    padding: 2rem;
+}
+
+.page2-main__gallery-card {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top: 1rem;
+    
+}
+
+.page2-main__gallery-image {
+    width: 300px;
+    max-height: 200px;
+    object-fit: fill;
+    border-radius: 5px;
+
+}
+
+.page2-main__card-title, .page2-main__card-info {
+    padding: .35rem;
+}
+
+
+
+
+
 @media (min-width:375px) and (max-width:576px) {
 
     .page-header {
@@ -139,7 +215,7 @@ body {
         
     }
 
-    .page-header__hamburger {
+    .page-header .page-header__hamburger {
         display: inline;
         font-size: 2rem;
     }
@@ -161,5 +237,44 @@ body {
         padding: .5rem;
         color: #fff;
     }
+
+    .page2-wrapper {
+        /* background-image: none; */
+        height: 100vh;
+    }
+
+    .page2-main {
+        position: relative;
+    }
+
+
+    .page2-main__hero-container {
+        display: inline-block;
+        position: absolute;
+        width: 75%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -25%;
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;               
+        font-size: 1.2rem;
+        
+        
+    }
+
+    .page2-main {
+        margin-top: 100vh;
+    }
+
+    .page2-main__gallery-card {
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    }
+
+
+    
+
 
 }
