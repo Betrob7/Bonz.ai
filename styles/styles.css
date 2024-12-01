@@ -9,7 +9,7 @@
 
 :root {
     /*COLOURS*/
-    --background-color: #000; 
+    --background-color: #000;
     --text-color: #fff;
     --header-color: rgba(0, 0, 0, 0.75);
     --link-hover: grey;
@@ -27,7 +27,7 @@ body {
 /*HEADER*/
 .page-header {
     height: 100vh;
-    width: 100%; 
+    width: 100%;
     /*Background image by: Tyler Clemmensen on Unsplash*/
     background-image: url(../assets/lake\ tahoe.jpg);
     background-repeat: no-repeat;
@@ -101,10 +101,10 @@ body {
 }
 
 .page-header__subtitle {
-   color: var(--text-color);
-   font-family: var(--heading-font);
-   font-weight: 600;
-   font-size: 2rem;
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 .page-header__slogan {
@@ -153,7 +153,7 @@ body {
 /*HEADER*/
 .page2-header {
     height: 100vh;
-    width: 100%; 
+    width: 100%;
     /*Background image by: El S on Unsplash*/
     background-image: url(../assets/hallway-bonz.ai.jpg);
     background-repeat: no-repeat;
@@ -237,9 +237,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items:flex-start;
+    align-items: flex-start;
     margin-top: 1rem;
-    
+
 }
 
 .page2-main__gallery-image {
@@ -258,7 +258,8 @@ body {
     font-family: var(--text-font);
 }
 
-.page2-main__card-title, .page2-main__card-info {
+.page2-main__card-title,
+.page2-main__card-info {
     padding: .35rem;
 }
 
@@ -328,7 +329,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     min-width: 300px;
-    
+
 }
 
 .search-button {
@@ -352,7 +353,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
     color: var(--text-color);
-    
+
 }
 
 .rooms__title {
@@ -370,7 +371,7 @@ body {
     justify-content: space-between;
     border-radius: 5px;
     margin-inline: auto;
-    
+
 }
 
 .rooms__info-section {
@@ -405,14 +406,14 @@ body {
 
 .booking-button:hover {
     background-color: rgb(54, 51, 51);
-    
+
 }
 
 /*PAGE 4*/
 /*HEADER*/
 .page4-header {
     height: 100vh;
-    width: 100%; 
+    width: 100%;
     /*Background image by: Luca Bravo on Unsplash*/
     background-image: url(../assets/page4-hero-bonz.ai.jpg);
     background-repeat: no-repeat;
@@ -470,11 +471,11 @@ body {
     font-family: var(--heading-font);
     font-weight: 600;
     font-size: 2rem;
- }
- 
- .page4-header__slogan {
-     font-family: var(--text-font);
- }
+}
+
+.page4-header__slogan {
+    font-family: var(--text-font);
+}
 
 
 
@@ -509,7 +510,7 @@ body {
     .page-header__landing-container {
         width: 80%;
         padding: 1rem;
-        
+
     }
 
     .page-header__subtitle {
@@ -533,7 +534,7 @@ body {
     .page-footer__title {
         padding: .5rem;
     }
-    
+
     /*PAGE 2*/
     /*HEADER*/
     .page2-header__container {
@@ -590,7 +591,7 @@ body {
     .page3-header .page3-header__hamburger {
         display: inline;
         font-size: 2rem;
-    
+
     }
 
     .page3-header__horizontal-line {
@@ -658,7 +659,7 @@ body {
     .page4-header__landing-container {
         width: 80%;
         padding: 1rem;
-        
+
     }
 
     .page4-header__subtitle {
@@ -669,12 +670,12 @@ body {
         font-size: .85rem;
     }
 
-    
-
-    
 
 
-    
+
+
+
+
 
 
 }
