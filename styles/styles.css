@@ -96,8 +96,8 @@ body {
     border-radius: 5px;
     position: absolute;
     left: 50%;
-    top: 45%;
-    transform: translateX(-50%);
+    top: 55%;
+    translate: -50% -50%;
 }
 
 .page-header__subtitle {
@@ -206,8 +206,8 @@ body {
     border-radius: 5px;
     position: absolute;
     left: 50%;
-    top: 45%;
-    transform: translateX(-50%);
+    top: 55%;
+    translate: -50% -50%;
 }
 
 .page2-header__subtitle {
@@ -466,8 +466,8 @@ body {
     border-radius: 5px;
     position: absolute;
     left: 50%;
-    top: 45%;
-    transform: translateX(-50%);
+    top: 55%;
+    translate: -50% -50%;
 }
 
 .page4-header__subtitle {
